@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #111;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .presentacion {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .presentacion img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .presentacion .info {
+    max-width: 400px;
+  }
+  
+  .presentacion .info h2 {
+    color: #2fb672;
+    margin-top: 0;
+  }
+  
+  .presentacion button {
+    background-color: #232d28;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 300px;
+  }
+  
+  .presentacion button:hover {
+    background-color: #196842;
+  }
+  
+  .caracteristicas {
+    display: block;
+    padding: 2rem;
+    background-color: #f0f0f0;
+  }
+  
+  .caracteristicas h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .grid-caracteristicas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .testimonios {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .testimonios h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .comentarios {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  blockquote {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-left: 4px solid #2fb672;
+    font-style: italic;
+    position: relative;
+  }
+  
+  blockquote span {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  footer {
+    background-color: #111;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #2fb672;
+    text-decoration: underline;
+  }
+  
